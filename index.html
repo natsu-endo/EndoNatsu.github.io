@@ -1,84 +1,115 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>EndoNatsu.officialsite</title>
-  </head>
-  <body>
-    <h1>Endo natsu</h1>
-    
-    <h2>About</h2>
-    <p>
-      北海道出身のプログラマー<br>
-      たいてい何でもできます
-    </p>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Endo Natsu</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#profile">Profile</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#works">Works</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#history">History</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <h3>Profile</h3>
-    <ul>
-      <li>遠藤夏</li>
-      <li>横浜</li>
-      <li>ウェブ開発、サイバーセキュリティ</li>
-    </ul>
+    <main>
+        <section id="about">
+            <h2>About</h2>
+            <p>北海道出身のプログラマー<br>たいてい何でもできます</p>
+        </section>
 
-    <h3>Skills</h3>
-    <table>
-      <tr>
-        <th>OS</th>
-        <td>Windows</td>
-      </tr>
-      <tr>
-        <th>Engine, Frameworks</th>
-        <td>Node.js, Express など</td>
-      </tr>
-      <tr>
-        <th>Tool, MiddleWare</th>
-        <td>Git, PostgreSQL</td>
-      </tr>
-      <tr>
-        <th>資格・免許</th>
-        <td>基本情報技術者試験、TOEIC825、統計学検定２級</td>
-      </tr>
-    </table>
+        <section id="profile">
+            <h2>Profile</h2>
+            <ul>
+                <li>遠藤夏</li>
+                <li>横浜</li>
+                <li>ウェブ開発、サイバーセキュリティ</li>
+            </ul>
+        </section>
 
-    <h3>Works</h3>
-    <p>アピールできる活動内容を書きましょう。</p>
-    <ul>
-      <li><a href="https://github.com/">GitHub</a></li>
-      <li><a href="https://qiita.com/">Qiita</a></li>
-      <li><a href="https://zenn.dev/">Zenn</a></li>
-      <li>
-        作った作品
-        <ul>
-          <li><a href="https://example.com/">作品 1</a></li>
-          <li><a href="https://example.com/">作品 2</a></li>
-        </ul>
-      </li>
-    </ul>
+        <section id="skills">
+            <h2>Skills</h2>
+            <table>
+                <tr>
+                    <th>OS</th>
+                    <td>Windows</td>
+                </tr>
+                <tr>
+                    <th>Engine, Frameworks</th>
+                    <td>Node.js, Express など</td>
+                </tr>
+                <tr>
+                    <th>Tool, MiddleWare</th>
+                    <td>Git, PostgreSQL</td>
+                </tr>
+                <tr>
+                    <th>資格・免許</th>
+                    <td>基本情報技術者試験、TOEIC825、統計学検定２級</td>
+                </tr>
+            </table>
+        </section>
 
-    <h3>Contact</h3>
-    <p>連絡先や SNS のアカウントを書きましょう。</p>
-    <ul>
-      <li><a href="mailto:name@example.com">Mail</a></li>
-      <li><a href="https://twitter.com/">X(旧 Twitter)</a></li>
-      <li><a href="https://www.linkedin.com/">LinkedIn</a></li>
-    </ul>
+        <section id="works">
+            <h2>Works</h2>
+            <p>アピールできる活動内容を書きましょう。</p>
+            <ul>
+                <li><a href="https://github.com/">GitHub</a></li>
+                <li><a href="https://qiita.com/">Qiita</a></li>
+                <li><a href="https://zenn.dev/">Zenn</a></li>
+                <li>
+                    作った作品
+                    <ul>
+                        <li><a href="https://example.com/">作品 1</a></li>
+                        <li><a href="https://example.com/">作品 2</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
 
-    <h3>History</h3>
-    <p>学歴、職歴、アルバイト、インターン経験など。</p>
-    <table>
-      <tr>
-        <th>2023年</th>
-        <td><a href="https://www.meiji.ac.jp/ko_chu/">明治大学付属明治高校</a> 卒業</td>
-      </tr>
-      <tr>
-        <th>2024年</th>
-        <td><a href="https://www.meiji.ac.jp/ims/subject/fms/index.html">明治大学先端メディサイエンス学科</a> 入学</td>
-      </tr>
-      <tr>
-        <th>2016年</th>
-        <td>U12 サッカー日本代表選抜</td>
-      </tr>
-    </table>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>連絡先や SNS のアカウントを書きましょう。</p>
+            <ul>
+                <li><a href="mailto:name@example.com">Mail</a></li>
+                <li><a href="https://twitter.com/">X(旧 Twitter)</a></li>
+                <li><a href="https://www.linkedin.com/">LinkedIn</a></li>
+            </ul>
+        </section>
+
+        <section id="history">
+            <h2>History</h2>
+            <p>学歴、職歴、アルバイト、インターン経験など。</p>
+            <table>
+                <tr>
+                    <th>2023年</th>
+                    <td><a href="https://www.meiji.ac.jp/ko_chu/">明治大学付属明治高校</a> 卒業</td>
+                </tr>
+                <tr>
+                    <th>2024年</th>
+                    <td><a href="https://www.meiji.ac.jp/ims/subject/fms/index.html">明治大学先端メディサイエンス学科</a> 入学</td>
+                </tr>
+                <tr>
+                    <th>2016年</th>
+                    <td>U12 サッカー日本代表選抜</td>
+                </tr>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Endo Natsu. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
   
 
